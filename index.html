@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A2</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet/less" href="css/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+</head>
+<body class="page">
+<!--Header-->
+    <header class="header">
+        <a href="#" class="logo header__logo" title="На главную"></a>
+        <div class="contacts header__contacts">
+            <a href="tel:+78007000175" class="contacts__phone">8-800-7000-175</a>
+            <span class="contacts__callback">Обратный звонок</span>
+        </div>
+        <ul class="lang">
+            <li class="link lang__item">En</li>
+            <li class="link lang__item lang__item_active">Ru</li>
+        </ul>
+        <nav class="main-menu">
+            <div class="main-menu__button hamburger">
+                <span class="hamburger__slice"></span>
+                <span class="hamburger__slice"></span>
+                <span class="hamburger__slice"></span>
+                <span class="hamburger__slice"></span>
+            </div>
+            <ul class="main-menu__list">
+                <li class="main-menu__item"><a href="#" class="link">Каталог&nbsp;предложений</a></li>
+                <li class="main-menu__item main-menu__item_with-submenu"><span class="link">
+                    Услуги</span>
+                    <ul class="sub-menu">
+                        <li class="sub-menu__item sub-menu__item_control"><a href="#" class="link link_blue">Управление&nbsp;недвижимостью</a></li>
+                        <li class="sub-menu__item sub-menu__item_exploitation"><a href="#" class="link link_blue">Эксплуатация&nbsp;объектов</a></li>
+                        <li class="sub-menu__item sub-menu__item_brokerage"><a href="#" class="link link_blue">Брокеридж</a></li>
+                        <li class="sub-menu__item sub-menu__item_consulting"><a href="#" class="link link_blue">Консалтинг</a></li>
+                    </ul>
+                </li>
+                <li class="main-menu__item"><a href="#" class="link">Акции</a></li>
+                <li class="main-menu__item"><a href="#" class="link">Компания</a></li>
+                <li class="main-menu__item"><a href="#" class="link">Новости</a></li>
+                <li class="main-menu__item"><a href="#" class="link">Контакты</a></li>
+                <li class="main-menu__item main-menu__item_wrapper">
+                    <ul class="lang main-menu__lang">
+                        <li class="link lang__item">En</li>
+                        <li class="link lang__item lang__item_active">Ru</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!--end Header-->
+
+<!--Accordion-->
+    <section class="accordion">
+        <article class="service service_brokerage service_unactive">
+            <div class="service__background service__background_brokerage"></div>
+            <div class="service__content-wrapper">
+                <div class="service__content">
+                    <a href="#" class="service__title service__title_brokerage">Брокеридж</a>
+                    <p class="service__text">
+                        Управляющая компания «А2» работает на рынке коммерческой недвижимости с 2006 года. В управлении компании находятся объекты коммерческого назначения, общей площадью около 55 000 кв.м: Бизнес-центр NEBO, Торговый центр NEBO в г. Серове, Торговый центр NEBO в г. Асбесте, Торговый центр NEBO в г. Ханты-Мансийске.
+                    </p>
+                </div>
+            </div>
+        </article>
+        <article class="service service_catalog service_unactive">
+            <div class="service__background service__background_catalog"></div>
+            <div class="service__content-wrapper">
+                <div class="service__content">
+                    <a href="#" class="service__title service__title_catalog">Каталог предложений</a>
+                    <p class="service__text">
+                        Управляющая компания «А2» работает на рынке коммерческой недвижимости с 2006 года. В управлении компании находятся объекты коммерческого назначения, общей площадью около 55 000 кв.м: Бизнес-центр NEBO, Торговый центр NEBO в г. Серове, Торговый центр NEBO в г. Асбесте, Торговый центр NEBO в г. Ханты-Мансийске.
+                    </p>
+                    <a href="#" class="button service__button">Выбрать недвижимость</a>
+                </div>
+            </div>
+        </article>
+        <article class="service service_about service_unactive">
+            <div class="service__background service__background_about"></div>
+            <div class="service__content-wrapper">
+                <div class="service__content">
+                    <a href="#" class="service__title service__title_about">О&nbsp;компании</a>
+                    <ul class="service__menu">
+                        <li class="service__menu-item"><a href="#" class="link link_white link_big link_bordered">История</a></li>
+                        <li class="service__menu-item"><a href="#" class="link link_white link_big link_bordered">Команда</a></li>
+                        <li class="service__menu-item"><a href="#" class="link link_white link_big link_bordered">Объекты</a></li>
+                        <li class="service__menu-item"><a href="#" class="link link_white link_big link_bordered">Реализованные&nbsp;проекты</a></li>
+                    </ul>
+                    <ul class="advantages service__advantages">
+                        <li class="advantages__item">
+                            <div class="advantages__title">1 024 договора</div>
+                            <p class="advantages__text">Мы заключили</p>
+                        </li>
+                        <li class="advantages__item">
+                            <div class="advantages__title">35 сотрудников</div>
+                            <p class="advantages__text">Каждый день занимаются  вашей недвижимостью</p>
+                        </li>
+                        <li class="advantages__item">
+                            <div class="advantages__title">10 лет</div>
+                            <p class="advantages__text">На рынке недвижимости</p>
+                        </li>
+                        <li class="advantages__item">
+                            <div class="advantages__title">30 объектов</div>
+                            <p class="advantages__text">Обычно на реализации единовременно</p>
+                        </li>
+                    </ul>
+                    <div class="service__slogan">Уважение. Внимание. Опыт.</div>
+                </div>
+            </div>
+        </article>
+        <article class="service service_control service_unactive">
+            <div class="service__background service__background_control"></div>
+            <div class="service__content-wrapper">
+                <div class="service__content">
+                    <a href="#" class="service__title service__title_control">Управление недвижимостью</a>
+                    <p class="service__text">
+                        Управляющая компания «А2» работает на рынке коммерческой недвижимости с 2006 года. В управлении компании находятся объекты коммерческого назначения, общей площадью около 55 000 кв.м: Бизнес-центр NEBO, Торговый центр NEBO в г. Серове, Торговый центр NEBO в г. Асбесте, Торговый центр NEBO в г. Ханты-Мансийске.
+                    </p>
+                    <a href="#" class="button service__button">Предложить объект в&nbsp;управление</a>
+                </div>
+            </div>
+        </article>
+        <article class="service service_exploitation">
+            <div class="service__background service__background_exploitation"></div>
+            <div class="service__content-wrapper">
+                <div class="service__content">
+                    <a href="#" class="service__title service__title_exploitation">Эксплуатация</a>
+                    <p class="service__text">
+                        Управляющая компания «А2» работает на рынке коммерческой недвижимости с 2006 года. В управлении компании находятся объекты коммерческого назначения, общей площадью около 55 000 кв.м: Бизнес-центр NEBO, Торговый центр NEBO в г. Серове, Торговый центр NEBO в г. Асбесте, Торговый центр NEBO в г. Ханты-Мансийске.
+                    </p>
+                </div>
+            </div>
+        </article>
+    </section>
+<!--end Accordion-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>
